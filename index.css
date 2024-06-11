@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter, sans-serif ;
+}
+#header, #footer{
+    background-color: #FF6700;
+}
+#header h1{
+    margin-left: 50px;
+}
+
+#main{
+    background-color: #5ED0BD;
+    width: 100%;
+    min-height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+}
+img, .p{
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+#conteiner{
+    width: 100%;    
+}
+ul{
+    list-style: none;
+
+}
+.nav{
+    background-color: #FF8D40;
+    
+    
+}
+.nav #navul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.nav #navul li{
+    width: 100%;
+    text-align: center;
+}
+.nav #navul li a{
+    color: black;
+    text-decoration: none;
+}
+.nav #navul li:hover{
+    background: #ffcdac;
+}
+.nav-2 {
+    display: none;
+    position: absolute;
+    background: #FFAB73;
+    width: 20%;
+}
+.nav #navul li:hover .nav-2{
+    display: block;
+}
+#nav-4{
+    display: none;
+    position: absolute;
+    background: #FFAB73;
+    width: 20%;
+}
+.nav #navul li:hover  #nav-4{
+    display: block;
+}
+.nav-5{
+    display: none;
+    position: absolute;
+    background: #FFAB73;
+    width: 20%;
+}
+.nav #navul li:hover .nav-5{
+    display: block;
+}
+#main{
+    text-align: center;
+}
+#pic1m{
+    width: 40%;
+    margin-top: 40px;
+}
+.note{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+
+}
+.note h4{
+    color: black;
+    padding: 5px;
+    
+    background-color:#34D0B6;
+    border-radius: 6px;
+}
+.note a{
+    text-decoration: none;
+}
+.note h4:hover {
+    background-color:#ffcdac ;
+}
+.note img{
+    width: 400px;
+}
+.note .p{
+    background-color: #fff;
+    height: 100%;
+    align-items: center;
+    padding: 20px;
+}
+#footer{
+    display: flex;
+    height: 100px;
+}
+.col{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.picf{
+    width: 50px;
+    border-radius: 25px;
+}
+#up h5{
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    background-color:#FF8D40;
+}
+#up a{
+    text-decoration: none;
+
+}
+#up:hover h5{
+    background: #FFAB73;
+}
+    

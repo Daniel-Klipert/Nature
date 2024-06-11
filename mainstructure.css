@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header, #footer{
+    background-color: #FF6700;
+}
+#sidemain{
+    width: 100%;
+    display: flex;
+    min-height: 200px;
+}
+#side{
+    background-color: #34D0B6;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+#side ul{
+    list-style: disc;
+}
+#header h1{
+    margin-left: 50px;
+}
+
+#main{
+    background-color: #5ED0BD;
+    width: 100%;
+    min-height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+}
+img, .p{
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+#conteiner{
+    width: 100%;    
+}
+ul{
+    list-style: none;
+}
+#nav{
+    background-color: #FF8D40;
+    justify-content: space-around;
+    
+}
+#navul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+#navul li{
+    width: 100%;
+    text-align: center;
+}
+#navul li a{
+    color: black;
+    text-decoration: none;
+}
+#navul li:hover{
+    background: #ffcdac;
+}
+#nav-2{
+    display: none;
+    position: absolute;
+    background: #FFAB73;
+    width: 20%;
+}
+#navul li:hover #nav-2{
+    display: block;
+}
+#nav-4{
+    display: none;
+    position: absolute;
+    background: #FFAB73;
+    width: 20%;
+}
+#navul li:hover #nav-4{
+    display: block;
+}
+#nav-5{
+    display: none;
+    position: absolute;
+    background: #FFAB73;
+    width: 20%;
+}
+#navul li:hover #nav-5{
+    display: block;
+}
+#footer{
+    display: flex;
+    height: 100px;
+}
+.col{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.picf{
+    width: 50px;
+    border-radius: 25px;
+}
+#up a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    background-color:#FF8D40;
+}
+#up:hover a{
+    background: #FFAB73;
+}
+    
